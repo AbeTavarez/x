@@ -8,7 +8,7 @@ const jsxEngine = require('jsx-view-engine')
 
 // Variables
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // config
 app.set('view engine', 'jsx');
